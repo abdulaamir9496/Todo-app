@@ -1,0 +1,59 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #07b064;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container > input {
+  height: 30px;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.input-container > button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background:#b2f263fc;
+  font: 1.8em sans-serif;
+  margin-top: 20px;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo {
+  width: 500px;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+.actions > button{
+  background: #fc0303;
+  color: #f0f0f0;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+}
